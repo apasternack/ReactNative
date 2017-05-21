@@ -7,4 +7,10 @@ const Card = () => {
     );
 };
 
+const styles = {
+    containerStyle: {
+        borderWidth: 1
+    }
+}
+
 export default Card;
