@@ -9,7 +9,9 @@ const Card = () => {
 
 const styles = {
     containerStyle: {
-        borderWidth: 1
+        borderWidth: 1,
+        borderRadius: 2,
+        borderColor: '#ddd'
     }
 }
 
