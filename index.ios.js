@@ -4,9 +4,9 @@ import { AppRegistry, View } from 'react-native';
 import Header from './src/components/Header';
 import AlbumList from './src/components/AlbumList';
 
-// Create component
+// Create component, flex: 1 style is to make the entire container fit whatever elements are in it including tall scrollables
 const App = () => (
-  <View>
+  <View style={{ flex: 1 }}>
     <Header headerText={'Albums'} />
     <AlbumList />
   </View>
